@@ -8,6 +8,9 @@ import refresh from '../../assets/DesignElements/refresh.png';
 import patreon from '../../assets/DesignElements/patreon.png';
 
 export class funnel extends Component {
+    refreshPage() {
+        window.location.reload(true);
+    }
     render() {
         return (
             <div className="container">
@@ -19,7 +22,7 @@ export class funnel extends Component {
                     <p id="Update-p"><img className="icons" src={refresh}/>  Daily Content Updates and Discussion</p>
                     <p id="Patreon-p"><img className="icons" src={patreon}/>  Monthly Themed Patreon Guides</p>
                 </div>
-                <Link id="jtt-btn" to="/patreon">JOIN THE TEAM!</Link>
+                <a onClick={this.refreshPage} id="jtt-btn" href="https://www.patreon.com/join/TBlakesPatreon?">JOIN THE TEAM!</a>
             </div>
         )
     }

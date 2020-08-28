@@ -6,6 +6,11 @@ import brands from "../../assets/DesignElements/brands.png";
 import shoebox from "../../assets/DesignElements/shoebox.jpg";
 
 export class restocked extends Component {
+
+    refreshPage() {
+        window.location.reload(true);
+    }
+
     render() {
         return (
             <div className="re-container">
@@ -33,7 +38,10 @@ export class restocked extends Component {
                         </div>
                     </div>
                 </div>
-                <button id="rest-btn">TAKE ME THERE!</button>
+                <div id="rest-btn">
+                    <a onClick={this.refreshPage} href="https://www.restocked.io/">TAKE ME THERE!</a>
+                </div>
+                
             </div>
         )
     }

@@ -33,11 +33,11 @@ export class about extends Component {
                             <p>Connect with TBlake</p>
                         </div>
                         <div id="home-icons">
-                            <a href="https://twitter.com/therealtblake"><img id="ico" src={twitter} alt="twitter"/></a>
-                            <a href="https://www.instagram.com/tylerjblake/"><img id="ico" src={instagram} alt="insta"/></a>
-                            <a href="https://discord.com/invite/TEyFeNM"><img id="ico" src={discord} alt="discord"/></a>
-                            <a href="https://www.patreon.com/join/TBlakesPatreon?"><img id="ico" src={patreon} alt="patreon"/></a>
-                            <a href="https://www.youtube.com/user/TBlakeRaps"><img id="ico" src={youtube} alt="patreon"/></a>
+                            <a onClick={this.refreshPage} href="https://twitter.com/therealtblake"><img id="ico" src={twitter} alt="twitter"/></a>
+                            <a onClick={this.refreshPage} href="https://www.instagram.com/tylerjblake/"><img id="ico" src={instagram} alt="insta"/></a>
+                            <a onClick={this.refreshPage} href="https://discord.com/invite/TEyFeNM"><img id="ico" src={discord} alt="discord"/></a>
+                            <a onClick={this.refreshPage} href="https://www.patreon.com/join/TBlakesPatreon?"><img id="ico" src={patreon} alt="patreon"/></a>
+                            <a onClick={this.refreshPage} href="https://www.youtube.com/user/TBlakeRaps"><img id="ico" src={youtube} alt="patreon"/></a>
                         </div>
                         <div id="home-tag">
                             <p>Designed by Bailey Agnew</p>

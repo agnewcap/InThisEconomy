@@ -72,10 +72,15 @@
 }
 
 #rest-btn{
+    position: absolute;
+    left: 44%;
+    top: 185%;
     grid-column: 3/4;
-    height: 9vh;
-    margin-top: 7%;
-    width: 15vw;
+}
+
+#rest-btn a{
+    position: relative;
+    margin: auto;
     background-color: #FF0000;
     border: none;
     color: black;
