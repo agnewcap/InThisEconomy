@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import "./successStories.css";
 import quotes from '../../assets/DesignElements/Quotes.png';
-import Footer from '../Footer/footer';
  
 
 export class successStories extends Component {

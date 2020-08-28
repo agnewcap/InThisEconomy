@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './site.css';
 import Home from '../containers/Home/home';
-import {Route, Link} from 'react-router-dom';
+import {Route} from 'react-router-dom';
 import About from '../containers/About/about';
 import Contact from '../containers/Contact/contact';
 import Discord from '../containers/Discord/discord';

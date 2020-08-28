@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
 import './discord.css';
-import {Route, Link} from 'react-router-dom';
-
 import NavBar from '../../components/NavBar/navbar';
 import Footer from '../../components/Footer/footer';
-import Aux from '../../hoc/auxiliary';
 import equityPartners from '../../assets/DesignElements/EquityPartner.png';
 import freeChannels from '../../assets/DesignElements/freeDiscord.png';
 

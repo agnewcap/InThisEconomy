@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import './about.css';
 import NavBar from '../../components/NavBar/navbar';
-import Footer from '../../components/Footer/footer';
-import Aux from '../../hoc/auxiliary';
 import Tblake from '../../assets/DesignElements/tblake.jpeg';
 import twitter from "../../assets/DesignElements/twitter.png";
 import instagram from "../../assets/DesignElements/instagram.png";

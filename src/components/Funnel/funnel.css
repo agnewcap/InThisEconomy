@@ -45,11 +45,12 @@
     background-color: #14623C;
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 3%;
     text-align: center;
     text-decoration: none;
     font-size: 2.2vh;
     border-radius: 50px;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 
