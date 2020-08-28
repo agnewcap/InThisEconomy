@@ -20,12 +20,14 @@
     text-align: left;
     font-style: normal;
     font-weight: bold;
-    font-size: 3vh;
+    font-size: 3vmin;
     color: #FFFFFF;
 }
 
 #paid-channels{
     position: absolute;
+    height: 18vmin;
+    width: 45%;
     padding-top: 1.5%;
     left: 15%;
 }
@@ -41,6 +43,8 @@
 
 #free-channels{
     position: absolute;
+    height: 18vh;
+    width: 50%;
     padding-top: 1.5%;
     left: 15%;
 }
