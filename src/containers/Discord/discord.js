@@ -8,7 +8,7 @@ import freeChannels from '../../assets/DesignElements/freeDiscord.png';
 export class discord extends Component {
 
     refreshPage() {
-        window.location.reload(false);
+        window.location.reload(true);
     }
 
     render() {
@@ -18,11 +18,11 @@ export class discord extends Component {
                 <div className="discord-content">
                     <p id="paid">Exclusive Discord Channels for Equity Partners:</p>
                     <img id="paid-channels" src={equityPartners} alt="equity Partners"/>
-                    <a id="paid-btn" href="https://www.patreon.com/join/TBlakesPatreon?">Become an Equity Partner</a>
+                    <a onClick={this.refreshPage} id="paid-btn" href="https://www.patreon.com/join/TBlakesPatreon?">Become an Equity Partner</a>
 
                     <p id="free">Free Public Discord Channels:</p>
                     <img id="free-channels" src={freeChannels} alt="free channels"/>
-                    <a id="free-btn" href="https://discord.com/invite/TEyFeNM">Join the Discord</a>
+                    <a onClick={this.refreshPage} id="free-btn" href="https://discord.com/invite/TEyFeNM">Join the Discord</a>
                 </div>
                 <div>
                     <Footer/>
