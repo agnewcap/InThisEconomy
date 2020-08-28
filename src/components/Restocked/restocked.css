@@ -1,0 +1,89 @@
+#restocked-logo{
+    margin-top: 2%;
+    height: 5vh;
+    filter: drop-shadow(4px 4px 5px rgba(0, 0, 0, 0.25));
+}
+
+#notif{
+    top: 0;
+    font-size: 2.5vh;
+    filter: drop-shadow(4px 4px 5px rgba(0, 0, 0, 0.25));
+}
+
+.cards{
+    height: 50vh;
+    display: grid;
+    grid-template-columns: 10% 23.333% 5% 23.333% 5% 23.333% 10%;
+    grid-template-rows: 100%;
+}
+
+#platform{
+    position: relative;
+    margin-top: 10%;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+    background: rgba(154, 154, 154, .7);
+    filter: drop-shadow(8px 8px 20px rgba(0, 0, 0, 0.25));
+    grid-column: 2/3;
+}
+#brands{
+    position: relative;
+    margin-top: 10%;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+    background: rgba(154, 154, 154, .7);
+    filter: drop-shadow(8px 8px 20px rgba(0, 0, 0, 0.25));
+    grid-column: 4/5;
+}
+#profit{
+    position: relative;
+    margin-top: 10%;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+    background: rgba(154, 154, 154, .7);
+    filter: drop-shadow(8px 8px 20px rgba(0, 0, 0, 0.25));
+    grid-column: 6/7;
+}
+
+#card-1{
+    position: absolute;
+    bottom: 0px;
+    height: 50%;
+    width: 100%;
+    border-radius: 0px 0px 25px 25px;
+    background: rgba(18, 18, 18, .7);
+    text-align: center;
+}
+
+#pc-img{
+    margin-top: 5%;
+    height: 40%;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#card-1 p{
+    margin: 10%;
+    width: 80%;
+    color: white;
+    font-size: 2.5vh;
+}
+
+#rest-btn{
+    grid-column: 3/4;
+    height: 9vh;
+    margin-top: 7%;
+    width: 15vw;
+    background-color: #FF0000;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2vh;
+    border-radius: 50px;
+    filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.25));
+}

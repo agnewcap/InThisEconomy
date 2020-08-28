@@ -1,0 +1,52 @@
+.footer{
+    position: absolute;
+    bottom: 1%;
+    margin-top: 5%;
+    height: 10vh;
+    width: 100%;
+    display: grid;
+    background: #282828;
+    grid-template-columns: 10% 40% 40% 10%;
+    grid-template-rows: 50% 50%;
+}
+
+#cnct{
+    position: absolute;
+    top: 0;
+    left: 1.5vh;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+#cnct p{
+    font-size: 2vh;
+    font-weight: bold;
+    color: #f9f9f9;
+}
+
+#tag{
+    position: absolute;
+    top: 2vh;
+    right: 0;
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+#tag p{
+    font-size: 2vh;
+    font-weight: bold;
+    color: #f9f9f9;
+}
+
+#icons{
+    position: absolute;
+    top: 0;
+    left: 0;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+#ico{
+    height: 34px;
+    margin: .5vh;
+}

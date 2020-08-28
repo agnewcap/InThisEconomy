@@ -1,0 +1,64 @@
+.succ-title{
+    font-size: 2.5vh;
+    filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.25));
+}
+
+.stories{
+    height: 45vh;
+    display: grid;
+    grid-template-columns: 15% 20% 5% 20% 5% 20% 15%;
+    grid-template-rows: 100%;
+}
+
+#succ-1{
+    position: relative;
+    margin-top: 10%;
+    height: 95%;
+    width: 100%;
+    border-radius: 25px;
+    background: #f9f9f9;
+    grid-column: 2/3;
+    text-align: center;
+    filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.25));
+}
+
+#succ-2{
+    position: relative;
+    margin-top: 10%;
+    height: 95%;
+    width: 100%;
+    border-radius: 25px;
+    background: #f9f9f9;
+    grid-column: 4/5;
+    text-align: center;
+    filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.25));
+}
+
+#succ-3{
+    position: relative;
+    margin-top: 10%;
+    height: 95%;
+    width: 100%;
+    border-radius: 25px;
+    background: #f9f9f9;
+    grid-column: 6/7;
+    text-align: center;
+    filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.25));
+}
+
+#succ-1 p, #succ-2 p, #succ-3 p{
+    font-size: 2.5vh;
+    font-weight: bold;
+    z-index: 1;
+    margin-top: 10vh;
+    padding: 3vh;
+}
+
+#quote{
+    height: 110%;
+    position: absolute;
+    top: -2vh;
+    left: -3vh;
+    z-index: 100;
+}
+

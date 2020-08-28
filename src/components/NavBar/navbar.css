@@ -1,0 +1,114 @@
+.navBar{
+    margin-top: 1%;;
+    height: 15%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 2fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+#Home{
+    grid-column: 2/3;
+
+    font-family: Garamond;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    align-self: center;
+    text-decoration: none;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#About{
+    grid-column: 3/4;
+
+    font-family: Garamond;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    align-self: center;
+    text-decoration: none;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#Contact{
+    grid-column: 4/5;
+
+    font-family: Garamond;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    align-self: center;
+    text-decoration: none;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#Discord{
+    grid-column: 6/7;
+
+    font-family: Garamond;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    align-self: center;
+    text-decoration: none;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#Patreon{
+    grid-column: 7/8;
+
+    font-family: Garamond;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    align-self: center;
+    text-decoration: none;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#Shop{
+    grid-column: 8/9;
+
+    font-family: Garamond;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    align-self: center;
+    text-decoration: none;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#Logo{
+    grid-column: 5 / 6;
+    align-self: center;
+}

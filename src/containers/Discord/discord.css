@@ -1,0 +1,83 @@
+.Discord{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background: linear-gradient(#1A1A1A 0%, #282828 100%);
+} 
+
+.discord-content{
+    margin: auto;
+    position: relative;
+    width: 75%;
+    height: 70%;
+    background: rgba(75, 75, 75, .7);
+    border-radius: 50px;
+}
+
+#paid{
+    padding: 2% 0 0 12%;
+    text-align: left;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3vh;
+    color: #FFFFFF;
+}
+
+#paid-channels{
+    position: absolute;
+    padding-top: 1.5%;
+    left: 15%;
+}
+
+#free{
+    padding: 18% 0 0 12%;
+    text-align: left;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3vh;
+    color: #FFFFFF;
+}
+
+#free-channels{
+    position: absolute;
+    padding-top: 1.5%;
+    left: 15%;
+}
+
+#paid-btn{
+    position: absolute;
+    height: 4vh;
+    width: 14.5vw;
+    top: 25%;
+    right: 10%;
+    background-color: #14623C;
+    border: none;
+    font-weight: bold;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2.2vh;
+    border-radius: 50px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+#free-btn{
+    position: absolute;
+    height: 3.5vh;
+    width: 9vw;
+    top: 75%;
+    right: 10%;
+    font-weight: bold;
+    background-color: #7289DA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2.2vh;
+    border-radius: 50px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+}
