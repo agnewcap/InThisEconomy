@@ -8,7 +8,7 @@ import freeChannels from '../../assets/DesignElements/freeDiscord.png';
 export class discord extends Component {
 
     refreshPage() {
-        window.location.reload(true);
+        window.location.reload(false);
     }
 
     render() {
